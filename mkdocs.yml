@@ -1,0 +1,100 @@
+site_name: Manual de Usuarios Hybrid
+site_description: Documentación del sistema de gestión Administrativa Hybrid
+site_author: "Juan Ernesto Páez Mujíca - Arksoft Integradores de Sistemas"
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - navigation.expand
+    - navigation.tracking
+    - navigation.instant
+    - navigation.indexes
+    - navigation.search.highlight
+    - navigation.search.share
+    - navigation.search.suggest
+    - navigation.search.language
+
+
+nav: 
+  - Home: index.md
+    
+  - Preliminares:
+    - Introducción: introduccion.md
+    - Requisitos: preliminares/requisitos.md
+    - Instalación o acceso: preliminares/instalacion.md
+    - Configuración General: preliminares/preliminares.md
+    - Configuración de la Empresa: preliminares/empresa.md
+    - Configuración de Roles de usuarios: preliminares/roles.md
+    - Configuración de Usuarios: preliminares/usuarios.md
+    - Configuración de Parámetros: preliminares/parametros.md
+  - interfaz Principal: preliminares/interfaz.md
+  - Archivos Maestros:
+      - Niveles: archivos/niveles.md
+      - General de Clases: archivos/clases.md
+      - Depósitos Inventarios: archivos/depositos.md
+      - Familias: archivos/familias.md
+      - Inventario (Productos y Servicios). Configuración: 
+        - Impuestos: archivos/impuestos.md
+        - Marcas de Inventarios: archivos/marcas.md
+        - Ítems de Inventarios: archivos/items.md
+      - Vendedores: archivos/vendedores.md
+      - Clientes:
+        - Zonas de Ventas: archivos/zonas.md
+        - Clientes: archivos/clientes.md
+        - Asociados: archivos/asociados.md
+      - Creación y manejo de Convenios y Ofertas: archivos/convenios.md
+      - Proveedores: archivos/proveedores.md
+      - Tarjetas: archivos/tarjetas.md
+      - Retenciones, Grupos y Tipos: archivos/retenciones.md
+      - Formas de pago: archivos/formas_pago.md
+      - Monedas: archivos/monedas.md
+      - Bancos. Contabilidad:
+        - Cuentas Contables: archivos/cuentas_contables.md
+        - Bancos: archivos/bancos.md
+      - Sucursales: archivos/sucursales.md
+      
+  - Ventas:
+    - Introducción: activas/introduccion.md
+    - Clientes: activas/clientes.md
+    - Cotizaciones: activas/cotizaciones.md
+    - Facturación: activas/facturacion.md
+    - Reportes: activas/reportes.md
+  - Compras:
+    - Introducción: pasivas/introduccion.md
+    - Proveedores: pasivas/proveedores.md
+    - Órdenes de Compra: pasivas/ordenes_compra.md
+    - Facturación Proveedores: pasivas/compras.md
+    - Reportes: pasivas/reportes.md
+  - Inventario:
+    - Introducción: inventario/introduccion.md
+    - Productos: inventario/productos.md
+    - Operaciones con Productos:
+      - Cargos: inventario/cargos.md
+      - Descargos: inventario/descargos.md
+      - Ajustes: inventario/ajustes.md
+      - Transferencias: inventario/transferencias.md
+    - Reportes: inventario/reportes.md
+  - Bancos y Contabilidad:
+    - Introducción: bancos/introduccion.md
+    - Operaciones Bancarias Contables: bancos/opercaiones_bancarias.md
+    - Depósitos de ventas y cobranzas: bancos/depositos_ventas.md
+    - Variables de asientos contables: bancos/variables_asientos.md
+    - Configuracion de Asientos Contables: bancos/asientos_contables.md
+    - Contabilización de Operaciones: bancos/contabilizacion_operaciones.md
+    - Conciliación Bancaria: bancos/conciliacion_bancaria.md
+    - Reportes: bancos/reportes.md
+  - Sucursales: sucursales.md
+
+
+
+
+
+
+
+
